@@ -16,7 +16,7 @@ A production-quality, client-only resume builder built with **React 18 + TypeScr
 - **Drag-and-drop reordering** (via `dnd-kit`) for experience, education, projects, skills, and the top-level section order itself
 - **6 fully distinct templates** — Modern, Professional, Minimal, Creative, Executive, Classic ATS
 - **Theme customization** — primary/secondary/accent color, font family & size, line height, page margins, icon visibility — applied live
-- **PDF export** (`html2canvas` + `jsPDF`) — multi-page, A4 or Letter
+- **PDF export**  — multi-page, A4 or Letter
 - **Browser print** support
 - **JSON export/import** for portability
 - **LocalStorage persistence** — unlimited resumes, no account needed
