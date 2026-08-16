@@ -1,6 +1,6 @@
 # Resumely — Premium Resume Builder
 
-A production-quality, client-only resume builder built with **React 18 + TypeScript + Vite + Tailwind CSS**. No backend, no authentication, no AI — everything is saved to your browser's `localStorage`.
+A production-quality, client-only resume builder built with **React 18 + TypeScript + Vite + Tailwind CSS**. No backend, no authentication, no AI — everything is saved to your browser's `Local Storage`.
 
 ## ✨ Features
 
@@ -22,18 +22,18 @@ A production-quality, client-only resume builder built with **React 18 + TypeScr
 - **LocalStorage persistence** — unlimited resumes, no account needed
 - Toast notifications, skeleton loaders, confirm dialogs, responsive layout (desktop/tablet/mobile)
 
-## 📦 Tech Stack
+## Tech Stack
 
 React 18 · TypeScript · Vite · Tailwind CSS · React Router · dnd-kit · Framer Motion · jsPDF · html2canvas · Lucide React
 
 ## 🚀 Getting Started
 
-```bash
+```
 npm install
 npm run dev
 ```
 
-Then open the URL Vite prints (typically `http://localhost:5173`).
+Then open the URL Vite prints.
 
 To build for production:
 
@@ -46,20 +46,20 @@ npm run preview
 
 ```
 src/
-  components/
-    landing/      → landing page sections (Navbar, Hero, Features, ...)
-    dashboard/     → ResumeCard, NewResumeModal
-    builder/        → Sidebar, DragList, SortableEntryCard, PreviewOverlay
-      sections/     → one form component per resume section
-    ui/            → Toast, Modal, ConfirmDialog, Skeleton
-  context/          → ResumeContext (CRUD + persistence), ThemeContext (dark mode)
-  pages/            → Landing, Dashboard, Builder, NotFound
-  templates/        → the 6 resume templates + shared section renderers
-  types/            → resume.ts — all TypeScript interfaces
-  utils/            → storage.ts (localStorage), pdfExport.ts, id.ts
+components/
+landing/      → landing page sections (Navbar, Hero, Features, ...)
+dashboard/    → ResumeCard, NewResumeModal
+builder/      → Sidebar, DragList, SortableEntryCard, PreviewOverlay
+sections/     → one form component per resume section
+ui/           → Toast, Modal, ConfirmDialog, Skeleton
+context/      → ResumeContext (CRUD + persistence), ThemeContext (dark mode)
+pages/        → Landing, Dashboard, Builder, NotFound
+templates/    → the 6 resume templates + shared section renderers
+types/        → resume.ts — all TypeScript interfaces
+utils/        → storage.ts (localStorage), pdfExport.ts, id.ts
 ```
 
-## 📝 Notes on Scope
+##  Notes on Scope
 
 This build focuses on 6 fully distinct, high-quality templates rather than 8 thinner ones — every template has its own layout logic (single column, sidebar, header-band, ATS-plain, etc.), not just a palette swap.
 
@@ -67,4 +67,4 @@ The "Preview & Export" screen is intentionally the only place the fully rendered
 
 ## 🔒 Privacy
 
-Everything — your resume text and settings — stays in your browser's `localStorage`. Nothing is ever sent to a server.
+Everything — your resume text and settings — stays in your browser's `Local Storage`. Nothing is ever sent to a server.
