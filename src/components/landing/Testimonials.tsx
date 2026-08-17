@@ -13,13 +13,13 @@ const TESTIMONIALS = [
   {
     quote:
       'The drag-and-drop reordering saved me so much time reorganizing my experience for different roles.',
-    name: 'Daniel Cho',
+    name: 'Deepak Verma',
     role: 'Software Engineer',
     color: '#f78c1f',
   },
   {
     quote: 'Clean, fast, and the PDF export quality is genuinely better than tools I paid for.',
-    name: 'Amara Okafor',
+    name: 'Ananya Singh',
     role: 'Marketing Manager',
     color: '#22c55e',
   },

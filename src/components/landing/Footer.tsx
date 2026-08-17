@@ -13,13 +13,13 @@ export default function Footer() {
           <span className="font-display font-bold text-slate-900 dark:text-white">Resumely</span>
         </Link>
         <p className="text-sm text-slate-500 dark:text-slate-400">
-          © {new Date().getFullYear()} Resumely. Built for job seekers, by job seekers.
+          © {new Date().getFullYear()} Resumely. Built for job seekers. By Aditya Deshmukh . All rights reserved!
         </p>
         <div className="flex items-center gap-4 text-slate-400">
           <a href="#" aria-label="Twitter" className="hover:text-brand-600">
             <Twitter className="h-5 w-5" />
           </a>
-          <a href="#" aria-label="GitHub" className="hover:text-brand-600">
+          <a href="https://github.com/staticflux-adi" aria-label="GitHub" className="hover:text-brand-600">
             <Github className="h-5 w-5" />
           </a>
           <a href="#" aria-label="LinkedIn" className="hover:text-brand-600">
